@@ -1,3 +1,8 @@
+# Check out the Deployed Website on Vercel too!
+
+Check it out at: https://portfolio-website-rust-omega-67.vercel.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

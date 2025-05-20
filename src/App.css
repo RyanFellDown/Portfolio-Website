@@ -1,0 +1,49 @@
+.Footer{
+  height: 120px;
+  background-color: rgba(31, 35, 42, 1);
+}
+
+.FooterContent{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  width: 60%;
+  justify-self: center;
+  height: 120px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LinkImage{
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+}
+
+.LinkedInImage{
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+.GitHubImage{
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+.ContactInfo{
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactText{
+  text-align: center;
+  color: white;
+}

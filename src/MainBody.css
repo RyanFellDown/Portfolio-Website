@@ -1,0 +1,166 @@
+.mainPage {
+  background-color: rgba(39, 43, 49, 1);
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 85vw;
+  max-width: 85vw;
+  height: 100%;
+  color: white;
+}
+
+.header{
+  padding-top: 5vw;
+  padding-bottom: 20px;
+  width: 60%;
+}
+
+.name{
+  color: white;
+  font-size: 48px;
+  border: 5px solid aqua;
+  justify-self: left;
+  padding-top: 3%;
+  padding-left: 2%;
+  border-right: none;
+  border-bottom: none;
+  animation: fade-in 5s;
+}
+
+
+.headerText{
+  justify-content: right;
+  width: 80%;
+  justify-self: right;
+  font-size: 20px;
+  border: 5px solid aqua;
+  padding-bottom: 3%;
+  padding-right: 2%;
+  border-left: none;
+  border-top: none;
+  animation: fade-in 5s;
+}
+
+.Titles{
+  padding-top: 80px;
+  font-size: 30px;
+  border: 5px solid aqua;
+  justify-self: left;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  animation: fade-in 5s;
+}
+
+#InnerSection{
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  width: 100%;
+  grid-gap: 30px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  animation: fade-in 5s;
+}
+
+
+
+.Image1Container{
+  max-height: 95px;
+}
+
+.Experience1Image{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.Image2Container{
+  max-height: 95px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.Experience2Image{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.Image3Container{
+  max-height: 95px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.Experience3Image{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+.InnerTitles{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding: 2.5%;
+  margin-top: 7.5%;
+  overflow: hidden;
+  min-height: 40px;
+}
+
+.InnerText{
+  font-size: 14px;
+  padding: 7%;
+}
+
+.InsideSection{
+  width: 33%;
+  background-color: rgba(56, 62, 71, 1);
+  border-radius: 20px 20px 20px 20px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  transition: all 0.5s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.InsideSection::before{
+  position: absolute;
+  z-index: 0;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0,255,255,0.3)
+  );
+  transition: all 0.5s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.InsideSection:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
